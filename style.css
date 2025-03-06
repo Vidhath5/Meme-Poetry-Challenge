@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+h1 {
+  color: #333;
+}
+#meme-display {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+#poem-input {
+  width: 80%;
+  max-width: 400px;
+  height: 80px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#score-display, #stack-display {
+  font-size: 18px;
+  margin: 10px 0;
+}
+#poem-compilation {
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+#meme-image {
+  display: block; /* Will toggle to show image */
+}

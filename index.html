@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Poetry Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Meme Poetry Challenge</h1>
+  <div id="meme-display">Click "Start Game" to begin!</div>
+  <img id="meme-image" src="" alt="Meme Visual" style="display:none; max-width: 300px; margin: 10px auto;">
+  <textarea id="poem-input" placeholder="Type your 2-line poem here..." rows="4" cols="50"></textarea>
+  <br>
+  <button onclick="startGame()">Start Game</button>
+  <button onclick="submitPoem()">Submit Poem</button>
+  <button onclick="nextMeme()">Next Meme</button>
+  <button onclick="scoreCheck()">Score Check</button>
+  <button onclick="endGame()">End Game</button>
+  <div id="score-display"></div>
+  <div id="stack-display">Stack: 0</div>
+  <div id="poem-compilation"></div>
+  <script src="script.js"></script>
+</body>
+</html>
